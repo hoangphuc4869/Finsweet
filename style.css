@@ -452,3 +452,50 @@ button {
   text-decoration: none;
   color: #f58a07;
 }
+
+.CTA_section {
+  display: flex;
+  justify-content: stretch;
+}
+
+.CTA_section img {
+  width: 963px;
+  height: 518px;
+  flex-shrink: 0;
+}
+
+.CTA_right {
+  background-color: #f58a07;
+  width: 960px;
+  height: 518px;
+  flex-shrink: 0;
+}
+
+.CTA_right .job_vaccancies {
+  background-color: #fff;
+  border: none;
+}
+
+.CTA_right h1 {
+  margin-top: 128px;
+  margin-left: 128px;
+}
+.CTA_right button {
+  margin-left: 128px;
+  margin-top: 40px;
+}
+.CTA_right h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -1.44px;
+  width: 532px;
+}
+
+.job_vaccancies a {
+  text-decoration: none;
+  color: #f58a07;
+}
