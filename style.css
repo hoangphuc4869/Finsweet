@@ -142,6 +142,9 @@ button {
 
 .help {
   margin: 96px 320px 0px 320px;
+  width: 1280px;
+  height: 740px;
+  flex-shrink: 0;
 }
 
 .help h2 {
@@ -165,20 +168,41 @@ button {
   font-weight: 500;
   line-height: 30px; /* 166.667% */
   width: 735px;
+  margin-top: 27px;
 }
 
 .help .help_posts {
-  margin-top: 64px;
   display: flex;
-  /* justify-content: flex-start; */
+  width: 1280px;
+  height: 447px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  margin-top: 64px;
 }
 
-.card .card-content {
-  color: #5b5b5b;
-  font-family: Poppins;
+.card {
+  width: 400px;
+  height: 447px;
+  flex-shrink: 0;
+}
+
+.learn-more-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.learn-more-button .learn-more {
+  color: #f58a07;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 175% */
-  width: 399px;
+  line-height: 106.5%; /* 17.04px */
+  margin-right: 8px;
+}
+
+.card-title {
+  margin-top: 33px;
+  margin-bottom: 17px;
 }
