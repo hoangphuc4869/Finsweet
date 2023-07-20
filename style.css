@@ -8,6 +8,9 @@ body {
   width: 1920px;
   height: 6613px;
 }
+a {
+  text-decoration: none;
+}
 .navbar_ {
   display: flex;
   align-items: center;
@@ -627,5 +630,108 @@ button {
   color: #f58a07;
 }
 
-.blog img {
+footer {
+  background-color: #063255;
+  color: #fff;
+}
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  margin-left: 320px;
+}
+
+.company a {
+  color: #fff;
+}
+
+.form #submit_button {
+  color: red;
+  padding: 10px;
+}
+
+.footer_left h2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 36px;
+  width: 351px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -1.08px;
+}
+.company .com,
+.Connect .join {
+  margin-bottom: 24px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.company h4,
+.Connect h4,
+.subscribe h4 {
+  margin-bottom: 16px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.subscribe .type_email {
+  background-color: #fff;
+  width: 342px;
+  height: 54px;
+  flex-shrink: 0;
+  margin-right: 320px;
+  color: #9c9c9c;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+}
+
+.subscribe .subscribe_button {
+  background-color: #f58a07;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.footer_bot {
+  display: flex;
+  margin-left: 320px;
+  justify-content: flex-end;
+  width: 1280px;
+  height: 24px;
+  flex-shrink: 0;
+  padding-bottom: 80px;
+  margin-top: 48px;
+}
+
+.footer_bot #allright {
+  margin-right: auto;
+}
+/* .footer_bot h4 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 320px;
+} */
+
+#privacy {
+  margin-right: 32px;
 }
