@@ -298,6 +298,14 @@ button {
   height: 724.008px;
   flex-shrink: 0;
   margin-left: 320px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: -33px;
+  right: 0;
 }
 .about_section .about_image {
   width: 153px;
@@ -368,6 +376,13 @@ button {
   background-color: #edf7ff;
   margin: 96px 320px;
   border-radius: 3%;
+  position: relative;
+}
+
+.ribbon {
+  position: absolute;
+  top: -15px;
+  right: -15px;
 }
 
 .service_tab {
@@ -633,6 +648,7 @@ button {
 footer {
   background-color: #063255;
   color: #fff;
+  position: relative;
 }
 .footer_top {
   display: flex;
@@ -734,4 +750,15 @@ footer {
 
 #privacy {
   margin-right: 32px;
+}
+
+.shapeleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.shaperight {
+  position: absolute;
+  top: 30px;
+  right: 0;
 }
